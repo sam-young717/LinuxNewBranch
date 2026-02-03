@@ -30,3 +30,19 @@ arg=-o
 arg=CMakeFiles/timer.dir/stdinout.c.o
 arg=-c
 arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/calculator.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/calculator.c
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/stringutils.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stringutils.c

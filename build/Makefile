@@ -129,6 +129,30 @@ timer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/build
 .PHONY : timer/fast
 
+calculator.o: calculator.c.o
+.PHONY : calculator.o
+
+# target to build an object file
+calculator.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/calculator.c.o
+.PHONY : calculator.c.o
+
+calculator.i: calculator.c.i
+.PHONY : calculator.i
+
+# target to preprocess a source file
+calculator.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/calculator.c.i
+.PHONY : calculator.c.i
+
+calculator.s: calculator.c.s
+.PHONY : calculator.s
+
+# target to generate assembly for a file
+calculator.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/calculator.c.s
+.PHONY : calculator.c.s
+
 clock.o: clock.c.o
 .PHONY : clock.o
 
@@ -201,6 +225,30 @@ stdinout.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/stdinout.c.s
 .PHONY : stdinout.c.s
 
+stringutils.o: stringutils.c.o
+.PHONY : stringutils.o
+
+# target to build an object file
+stringutils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/stringutils.c.o
+.PHONY : stringutils.c.o
+
+stringutils.i: stringutils.c.i
+.PHONY : stringutils.i
+
+# target to preprocess a source file
+stringutils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/stringutils.c.i
+.PHONY : stringutils.c.i
+
+stringutils.s: stringutils.c.s
+.PHONY : stringutils.s
+
+# target to generate assembly for a file
+stringutils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/timer.dir/build.make CMakeFiles/timer.dir/stringutils.c.s
+.PHONY : stringutils.c.s
+
 timer.o: timer.c.o
 .PHONY : timer.o
 
@@ -234,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... timer"
+	@echo "... calculator.o"
+	@echo "... calculator.i"
+	@echo "... calculator.s"
 	@echo "... clock.o"
 	@echo "... clock.i"
 	@echo "... clock.s"
@@ -243,6 +294,9 @@ help:
 	@echo "... stdinout.o"
 	@echo "... stdinout.i"
 	@echo "... stdinout.s"
+	@echo "... stringutils.o"
+	@echo "... stringutils.i"
+	@echo "... stringutils.s"
 	@echo "... timer.o"
 	@echo "... timer.i"
 	@echo "... timer.s"

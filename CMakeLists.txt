@@ -12,4 +12,8 @@ add_executable(timer
  clock.c
  driver.c
  timer.c
- stdinout.c)
+ stdinout.c
+ calculator.c
+ stringutils.c)
+
+target_link_libraries(timer m)

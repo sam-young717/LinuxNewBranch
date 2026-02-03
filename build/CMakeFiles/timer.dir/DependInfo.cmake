@@ -8,9 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/calculator.c" "CMakeFiles/timer.dir/calculator.c.o" "gcc" "CMakeFiles/timer.dir/calculator.c.o.d"
   "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/clock.c" "CMakeFiles/timer.dir/clock.c.o" "gcc" "CMakeFiles/timer.dir/clock.c.o.d"
   "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/driver.c" "CMakeFiles/timer.dir/driver.c.o" "gcc" "CMakeFiles/timer.dir/driver.c.o.d"
   "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c" "CMakeFiles/timer.dir/stdinout.c.o" "gcc" "CMakeFiles/timer.dir/stdinout.c.o.d"
+  "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stringutils.c" "CMakeFiles/timer.dir/stringutils.c.o" "gcc" "CMakeFiles/timer.dir/stringutils.c.o.d"
   "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/timer.c" "CMakeFiles/timer.dir/timer.c.o" "gcc" "CMakeFiles/timer.dir/timer.c.o.d"
   )
 

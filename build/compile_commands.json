@@ -22,5 +22,17 @@
   "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/stdinout.c.o -c /mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c",
   "file": "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c",
   "output": "CMakeFiles/timer.dir/stdinout.c.o"
+},
+{
+  "directory": "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/calculator.c.o -c /mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/calculator.c",
+  "file": "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/calculator.c",
+  "output": "CMakeFiles/timer.dir/calculator.c.o"
+},
+{
+  "directory": "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build",
+  "command": "/usr/bin/cc    -o CMakeFiles/timer.dir/stringutils.c.o -c /mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stringutils.c",
+  "file": "/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stringutils.c",
+  "output": "CMakeFiles/timer.dir/stringutils.c.o"
 }
 ]
