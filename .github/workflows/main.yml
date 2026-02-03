@@ -34,11 +34,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # Configures your CMake project. Be sure the compile_commands.json file is created.
-    - name: Configure CMake
-      
-      run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
-
     - name: Verify Location First
       run: ls
 
@@ -61,10 +56,6 @@ jobs:
         input: cpptestscan.bdf
         testConfig: 'builtin://MISRA C 2025'
         additionalParams: '-module .'
-        
-
-    - name: Configure CMake in build directory
-      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\CppTest\cpptest -B build
       
         
     - name: Running timer
