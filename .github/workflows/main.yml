@@ -37,15 +37,6 @@ jobs:
     - name: Verify Location First
       run: ls
 
-    - name: Check Machine ID
-      run: cpptestcli -machineId
-      
-
-    # Builds your CMake project. (This step is optional, as it is not required for code analysis).
-    - name: Build project (optional)
-      run: cmake --build build
-      
-
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
       # Use the 'run-cpptest-action' GitHub action.
