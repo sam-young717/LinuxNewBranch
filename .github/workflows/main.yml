@@ -55,7 +55,7 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: build/compile_commands.json
         testConfig: 'builtin://MISRA C 2025'
-        additionalParams: '-module . -properties ../../cpptestcli.properties'
+        additionalParams: '-module . -localsettings ../../cpptestcli.properties'
       
       
     # - name: Generating report
