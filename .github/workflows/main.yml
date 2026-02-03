@@ -53,13 +53,9 @@ jobs:
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-        input: cpptestscan.bdf
+        input: build/compile_commands.json
         testConfig: 'builtin://MISRA C 2025'
-        additionalParams: '-module .'
-      
-        
-    - name: Running timer
-      run: ./build/timer
+        additionalParams: '-module . -properties ../../cpptestcli.properties'
       
       
     # - name: Generating report
