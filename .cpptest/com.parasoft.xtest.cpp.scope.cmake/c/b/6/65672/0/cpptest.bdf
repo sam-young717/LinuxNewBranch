@@ -1,0 +1,32 @@
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/clock.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/clock.c
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/driver.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/driver.c
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/timer.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/timer.c
+---------------- build info ----------------
+working_dir=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build
+project_name=build
+arg=/usr/bin/cc
+arg=-o
+arg=CMakeFiles/timer.dir/stdinout.c.o
+arg=-c
+arg=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c

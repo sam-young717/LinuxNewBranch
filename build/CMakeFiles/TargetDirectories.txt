@@ -1,0 +1,3 @@
+/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build/CMakeFiles/timer.dir
+/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/build/CMakeFiles/rebuild_cache.dir
