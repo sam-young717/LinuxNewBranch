@@ -1,4 +1,4 @@
 {
-    "cpptest.testConfiguration": "builtin://Flow Analysis Fast",
-    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -module . -input build/compile_commands.json"
+    "cpptest.testConfiguration": "builtin://MISRA C 2023 (MISRA C 2012)",
+    "cpptest.commandLinePattern": "cpptestcli ${stopFile} ${compilerConfig} ${testConfig} ${reportDir} ${selectedFiles} -input build/compile_commands.json"
 }
