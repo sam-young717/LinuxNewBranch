@@ -1,8 +1,0 @@
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/clock.c
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/driver.c
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/timer.c
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stdinout.c
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/calculator.c
-build=/mnt/c/Users/syoung/Documents/StandardLinux2025_2/cpptest/examples/Timer/stringutils.c
-#VER=2
-#CTX=-384017169
