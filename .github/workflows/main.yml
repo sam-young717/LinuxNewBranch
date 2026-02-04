@@ -46,7 +46,7 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         input: build/compile_commands.json
         testConfig: 'builtin://MISRA C 2023 (MISRA C 2012)'
-        additionalParams: '-localsettings cpptestcli.properties -property scontrol.rep1.git.workspace=${{ github.workspace }}'
+        additionalParams: '-localsettings cpptestcli.properties -property build.id=${dtp_project}-2026-02-04-features'
       
       
     # - name: Generating report
